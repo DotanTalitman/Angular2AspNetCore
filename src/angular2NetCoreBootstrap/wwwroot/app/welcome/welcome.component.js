@@ -15,7 +15,7 @@ var WelcomeComp = (function () {
     WelcomeComp = __decorate([
         core_1.Component({
             selector: "welcome",
-            template: "welcome to angular 2 .net core app"
+            template: "welcome to angular 2 .net core app!!"
         }), 
         __metadata('design:paramtypes', [])
     ], WelcomeComp);

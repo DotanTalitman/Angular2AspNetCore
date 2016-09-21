@@ -2,11 +2,13 @@
   "name": "angular2bootstrap",
   "version": "1.0.0",
   "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"node server.js -w\" ",
+    "start": "tsc && concurrently \"npm run tsc:w\" \"aspnetStart-watch\" ",
     "lite": "lite-server",
+    "aspnetStart": "dotnet run",
+    "aspnetStart-watch": "dotnet watch run",
     "postinstall": "typings install",
     "tsc": "tsc",
-    "server":"server.js --watch",
+    "server": "server.js --watch",
     "tsc:w": "tsc -w",
     "typings": "typings"
   },

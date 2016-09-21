@@ -18,7 +18,7 @@ namespace angular2NetCoreBootstrap
                 .UseStartup<Startup>()
                 .Build();
 
-            host.Run();
-        }
+            host.Run();   
+        } 
     }
 }

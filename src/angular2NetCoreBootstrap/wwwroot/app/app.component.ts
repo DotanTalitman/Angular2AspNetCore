@@ -3,7 +3,7 @@ import {WelcomeComp  }   from './welcome/welcome.component';
 
 @Component({
   selector: 'my-app',
-  template: '<welcome></welcome>' 
+  template: `<welcome></welcome>` 
   
 })
 export class AppComponent { } 
